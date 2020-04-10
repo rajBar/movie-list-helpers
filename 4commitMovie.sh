@@ -13,5 +13,5 @@ fi
 
 sed -i '/^$/d' $movieFile;
 
-git commit -am "adding $1 to movie list";
+git commit -am "just watched the movie: $1";
 git push;
