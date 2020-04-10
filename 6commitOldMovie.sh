@@ -1,4 +1,5 @@
-myfile=code/movie-list/_data/movie-ratings.csv;
+cd code/movie-list/;
+myfile=_data/movie-ratings.csv;
 
 git reset --hard;
 git pull;
