@@ -4,12 +4,7 @@ cd code/movie-list/;
 git reset --hard;
 git pull;
 
-if [ -z "$(tail -c 1 "$tvFile")" ]
-then
-	echo $1, $2 >> $tvFile;
-else
-	echo '\n'$1, $2 >> $tvFile;
-fi
+echo '\n'$1, $2 >> $tvFile;
 
 sed -i '/^$/d' $tvFile;
 
