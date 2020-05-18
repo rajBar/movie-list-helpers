@@ -6,5 +6,5 @@ git pull;
 
 sed -i -e '2i\'"$1, $2"  $movieFile;
 
-#git commit -am "added $1 to movie list";
-#git push;
+git commit -am "added $1 to movie list";
+git push;

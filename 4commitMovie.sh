@@ -10,5 +10,5 @@ echo '\n'$1, $2, $thisDate >> $movieFile;
 
 sed -i '/^$/d' $movieFile;
 
-# git commit -am "adding $1 to movie list";
-# git push;
+git commit -am "adding $1 to movie list";
+git push;
