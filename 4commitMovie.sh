@@ -6,7 +6,7 @@ git pull;
 
 thisDate=$(date '+%d-%m-%Y');
 
-echo '\n'$1, $2, $thisDate, $3 >> $movieFile;
+echo '\n'"$1", $2, $thisDate, $3 >> $movieFile;
 
 sed -i '/^$/d' $movieFile;
 
