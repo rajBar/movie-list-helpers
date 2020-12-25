@@ -1,3 +1,3 @@
-cd code/movie-list/;
+cd ~/code/movie-list/;
 git commit -a;
 git push;
